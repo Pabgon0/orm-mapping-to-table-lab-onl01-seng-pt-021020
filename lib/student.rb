@@ -9,5 +9,6 @@ attr_reader :id
   end
   
   def self.create_table
+  end
   
 end
