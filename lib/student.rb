@@ -25,4 +25,9 @@ attr_reader :id
       SQL
     DB[:conn].execute(sql)
   end
+  
+  def save
+    sql = <<-SQL
+      INSERT
+  end
 end
